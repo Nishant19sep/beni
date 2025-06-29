@@ -9,6 +9,11 @@ module "rg2" {
   resource_group_name = "rg-love"
   resource_group_location = "West Europe"
 }
+module "rg3" {
+  source ="../Child_Modules/resource_group"
+  resource_group_name = "rg-love"
+  resource_group_location = "West Europe"
+}
 module "vnet" {
   depends_on = [module.rg]
   source ="../Child_Modules/vnet"
