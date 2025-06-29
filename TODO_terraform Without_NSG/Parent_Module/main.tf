@@ -7,7 +7,7 @@ module "rg" {
 module "rg2" {
   source ="../Child_Modules/resource_group"
   resource_group_name = "rg-love"
-  resource_group_location = "West Europe"
+  resource_group_location = "Central India"
 }
 module "vnet" {
   depends_on = [module.rg]
