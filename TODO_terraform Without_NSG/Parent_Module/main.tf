@@ -1,12 +1,12 @@
 module "rg" {
   source ="../Child_Modules/resource_group"
-  resource_group_name = "rg-beni"
+  resource_group_name = "rg-nt1"
   resource_group_location = "West Europe"
 }
 
 module "rg2" {
   source ="../Child_Modules/resource_group"
-  resource_group_name = "rg-love"
+  resource_group_name = "rg-nt2"
   resource_group_location = "West Europe"
 }
 
@@ -18,7 +18,7 @@ module "rg3" {
 
 module "rg4" {
   source ="../Child_Modules/resource_group"
-  resource_group_name = "rg-nt1"
+  resource_group_name = "rg-nt4"
   resource_group_location = "West Europe"
 }
 
