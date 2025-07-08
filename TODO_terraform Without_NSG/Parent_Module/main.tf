@@ -12,7 +12,7 @@ module "rg2" {
 
 module "rg3" {
   source ="../Child_Modules/resource_group"
-  resource_group_name = "rg-nt"
+  resource_group_name = "rg-nt3"
   resource_group_location = "West Europe"
 }
 
